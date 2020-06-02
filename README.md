@@ -31,7 +31,7 @@ $ npm start
 
 ## Part 2: Encoding Server 
 
-- [clone the encoding server from here](https://placeholder.com)
+- [clone the encoding server from here](https://github.com/zkarimi22/poc-livestream_encoding-server)
 - make sure you have [ffmpeg](https://www.ffmpeg.org/download.html) installed for audio/video processing 
 - run the server through terminal: 
 

@@ -24,7 +24,7 @@
 - make sure you have authorized .npmrc for nimbus-ui
 
 ```sh
-$ https://github.com/zkarimi22/poc-livestream-with-CDN.git
+$ git clone https://github.com/zkarimi22/poc-livestream-with-CDN.git
 $ npm install
 $ npm start
 ``` 
@@ -43,7 +43,8 @@ $ node index.js
 
 - Currently pointing to a (limited) service instance in us-east-1 that will idle or be turned off 
 - can be connected to record + save each stream to S3, but not the purpose of this poc
-
+- if you don't have access to AWS MediaLive, point the output from the encoding server
+ to a media server such as: [node-media-server](https://www.npmjs.com/package/node-media-server?activeTab=readme)
 
 
 ## Putting it All Together 
